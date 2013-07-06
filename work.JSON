@@ -1,0 +1,25 @@
+{
+	"project1" : {
+		"name"   : "Name",
+		"blurb"  : "This is a blurb",
+		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
+		"image1" : "http://lorempixel.com/400/200/",
+		"image2" : "http://lorempixel.com/400/200/"
+	},
+
+	"project2" : {
+		"name"   : "Name",
+		"blurb"  : "This is a blurb",
+		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
+		"image1" : "http://lorempixel.com/400/200/",
+		"image2" : "http://lorempixel.com/400/200/"
+	},
+
+	"project3" : {
+		"name"   : "Name",
+		"blurb"  : "This is a blurb",
+		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
+		"image1" : "http://lorempixel.com/400/200/",
+		"image2" : "http://lorempixel.com/400/200/"
+	}
+}
