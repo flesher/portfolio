@@ -44,6 +44,7 @@ $(document).ready(function(){
 		$('#scroll').addClass('scroll-show');
 	}, 2000);
 
+	$('.project:nth-of-type(1)').addClass('tight');
 });
 
 
@@ -55,13 +56,55 @@ $(document).ready(function(){
 /                                  */
 
 $(window).on('scroll', function(){
+
+	// nav background after homepage is scrolled past
 	var scrollTop   = $(window).scrollTop(),
-    elementOffset = $('#process').offset().top,
-    distance      = (elementOffset - scrollTop),
-    bg            = $('nav').hasClass('nav-bg');
+    aboutOffset   = $('#about').offset().top,
+    aboutDistance = (aboutOffset - scrollTop),
+    bg            = $('nav').hasClass('nav-bg'),
     height        = $('nav').height();
 
-    if (distance < height && !bg) $('nav').addClass('nav-bg');
-    else if (distance >= height) $('nav').removeClass('nav-bg');
+  if (aboutDistance < height && !bg) $('nav').addClass('nav-bg');
+  else if (aboutDistance >= height) $('nav').removeClass('nav-bg');
+
+  // $('.project').each(function(){
+  // 	var self       = $(this),
+  // 		projOffset   = $(this).offset().top,
+  //  		projDistance = $(projOffset - scrollTop);
+  //  		tight        = $(this).hasClass('tight');
+
+  //  		console.log(projDistance[0] + ' ' + mFlesh.windowH);
+
+ 	// 		if (projDistance[0] < mFlesh.windowH * 0.85 && !tight) self.addClass('tight');
+  // });
 
 });
+
+/***********************************
+ * Scroll links
+ *
+ * 
+************************************
+/                                  */
+
+$('#nav-about').click(function(event){
+	event.preventDefault();
+	$.scrollTo('#about', 750, 'swing');
+});
+
+$('#scroll a').click(function(event){
+	event.preventDefault();
+	$.scrollTo('#about', 750, 'swing');
+});
+
+$('#nav-work').click(function(event){
+	event.preventDefault();
+	$.scrollTo('#work', 750, 'swing');
+});
+
+$('#nav-contact').click(function(event){
+	event.preventDefault();
+	$.scrollTo('#contact', 750, 'swing');
+});
+
+// $('#my-nav').scrollspy();

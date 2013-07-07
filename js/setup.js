@@ -20,7 +20,7 @@
 
 		$('#home').height(mFlesh.windowH);
 		$('#home').width(mFlesh.windowW);
-		$('#process').css('margin-top', mFlesh.windowH );
+		$('#outer').css('padding-top', mFlesh.windowH );
 
 		_setUp();
 

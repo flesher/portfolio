@@ -1,25 +1,61 @@
-{
-	"project1" : {
-		"name"   : "Name",
+[
+	{
+		"title"  : "Name",
 		"blurb"  : "This is a blurb",
 		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
-		"image1" : "http://lorempixel.com/400/200/",
-		"image2" : "http://lorempixel.com/400/200/"
+		"link"   : "google",
+		"image"  : "http://lorempixel.com/600/400/",
+		"image2" : "http://lorempixel.com/600/400/"
 	},
 
-	"project2" : {
-		"name"   : "Name",
+	{
+		"title"  : "Name",
 		"blurb"  : "This is a blurb",
+		"link"   : "google",
 		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
-		"image1" : "http://lorempixel.com/400/200/",
-		"image2" : "http://lorempixel.com/400/200/"
+		"image" : "http://lorempixel.com/600/400/",
+		"image2" : "http://lorempixel.com/600/400/"
 	},
 
-	"project3" : {
-		"name"   : "Name",
+	{
+		"title"   : "Name",
+		"blurb"  : "This is a blurb",
+		"link"   : "google",
+		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
+		"image" : "http://lorempixel.com/600/400/",
+		"image2" : "http://lorempixel.com/600/400/"
+	},
+
+	{
+		"title"  : "Name",
 		"blurb"  : "This is a blurb",
 		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
-		"image1" : "http://lorempixel.com/400/200/",
-		"image2" : "http://lorempixel.com/400/200/"
+		"link"   : "google",
+		"image"  : "http://lorempixel.com/600/400/",
+		"image2" : "http://lorempixel.com/600/400/"
+	},
+
+	{
+		"title"  : "Name",
+		"blurb"  : "This is a blurb",
+		"link"   : "google",
+		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
+		"image" : "http://lorempixel.com/600/400/",
+		"image2" : "http://lorempixel.com/600/400/"
+	},
+
+	{
+		"title"   : "Name",
+		"blurb"  : "This is a blurb",
+		"link"   : "google",
+		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
+		"image" : "http://lorempixel.com/600/400/",
+		"image2" : "http://lorempixel.com/600/400/"
 	}
-}
+]
+
+
+
+
+
+
