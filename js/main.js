@@ -57,15 +57,37 @@ $(document).ready(function(){
 
 $(window).on('scroll', function(){
 
-	// nav background after homepage is scrolled past
 	var scrollTop   = $(window).scrollTop(),
+
     aboutOffset   = $('#about').offset().top,
     aboutDistance = (aboutOffset - scrollTop),
-    bg            = $('nav').hasClass('nav-bg'),
-    height        = $('nav').height();
 
-  if (aboutDistance < height && !bg) $('nav').addClass('nav-bg');
-  else if (aboutDistance >= height) $('nav').removeClass('nav-bg');
+    bg            = $('nav').hasClass('nav-bg'),
+    navHeight     = $('nav').height(),
+
+    workOffset    = $('#work').offset().top,
+    workDistance  = (workOffset - scrollTop),
+
+    contOffset    = $('#contact').offset().top,
+    contDistance  = (contOffset - scrollTop);
+
+  //add class to nav when scrolled past home
+  if (aboutDistance < navHeight && !bg) $('nav').addClass('nav-bg');
+  else if (aboutDistance >= navHeight) $('nav').removeClass('nav-bg');
+
+  //homebrew scroll spy
+  if (aboutDistance <= navHeight && workDistance > navHeight) {
+  	$('nav li').removeClass('active');
+  	$('#nav-about').parent().addClass('active');  	
+  } else if (workDistance <= navHeight && contDistance > navHeight) {
+  	$('nav li').removeClass('active');
+  	$('#nav-work').parent().addClass('active');  	
+  } else if (contDistance <= navHeight) {
+  	$('nav li').removeClass('active');
+  	$('#nav-contact').parent().addClass('active'); 	
+  } else {
+  	$('nav li').removeClass('active');
+  }
 
   // $('.project').each(function(){
   // 	var self       = $(this),
@@ -107,4 +129,3 @@ $('#nav-contact').click(function(event){
 	$.scrollTo('#contact', 750, 'swing');
 });
 
-// $('#my-nav').scrollspy();
