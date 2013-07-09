@@ -123,7 +123,7 @@
 		function _distance(mX, mY) {
 			var pyth1 = Math.pow(mX - expose.props.x, 2) + Math.pow(mY - expose.props.y, 2);
 			var dist  = Math.sqrt(pyth1);
-			expose.props.dA = (1 - (dist / (mFlesh.windowW * 0.8))) * 0.7;
+			expose.props.dA = (1 - (dist / (mFlesh.windowW * 0.8))) * 0.9;
 		}
 
 		expose.init();

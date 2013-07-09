@@ -1,7 +1,7 @@
 [
 	{
-		"title"  : "Name",
-		"blurb"  : "This is a blurb",
+		"title"  : "The Ahh Effect",
+		"blurb"  : "Experience for Coca Cola campaign",
 		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
 		"link"   : "google",
 		"image"  : "http://lorempixel.com/600/400/",
@@ -9,8 +9,8 @@
 	},
 
 	{
-		"title"  : "Name",
-		"blurb"  : "This is a blurb",
+		"title"  : "piq",
+		"blurb"  : "A jukebox for social spaces",
 		"link"   : "google",
 		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
 		"image" : "http://lorempixel.com/600/400/",
@@ -18,17 +18,17 @@
 	},
 
 	{
-		"title"   : "Name",
-		"blurb"  : "This is a blurb",
+		"title"  : "Robotic Pirate Monkey",
+		"blurb"  : "Band site for electronic group",
 		"link"   : "google",
 		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
-		"image" : "http://lorempixel.com/600/400/",
+		"image"  : "http://lorempixel.com/600/400/",
 		"image2" : "http://lorempixel.com/600/400/"
 	},
 
 	{
-		"title"  : "Name",
-		"blurb"  : "This is a blurb",
+		"title"  : "Mr. Excavator",
+		"blurb"  : "Business site for excavation contractor",
 		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
 		"link"   : "google",
 		"image"  : "http://lorempixel.com/600/400/",
@@ -36,8 +36,8 @@
 	},
 
 	{
-		"title"  : "Name",
-		"blurb"  : "This is a blurb",
+		"title"  : "Powered by Pride",
+		"blurb"  : "Spec work for physical experience at 2014 World Cup",
 		"link"   : "google",
 		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
 		"image" : "http://lorempixel.com/600/400/",
@@ -45,8 +45,8 @@
 	},
 
 	{
-		"title"   : "Name",
-		"blurb"  : "This is a blurb",
+		"title"   : "Flippable.js",
+		"blurb"  : "A jQuery plugin for a flipboard-esque effect",
 		"link"   : "google",
 		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
 		"image" : "http://lorempixel.com/600/400/",

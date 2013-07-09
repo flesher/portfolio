@@ -21,6 +21,15 @@ $(document).mousemove(function(e){
 });
 
 /***********************************
+ * Draws reactive background
+ *
+ * 
+************************************
+/                                  */
+
+
+
+/***********************************
  * Home Page animations
  *
  * 
@@ -45,6 +54,12 @@ $(document).ready(function(){
 	}, 2000);
 
 	$('.project:nth-of-type(1)').addClass('tight');
+
+  var procW = $('.process').width();
+  $('.process').height(procW);
+
+
+
 });
 
 
