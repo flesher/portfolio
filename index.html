@@ -3,6 +3,7 @@
 	<head>
 		<title>Matt Flesher | Portfolio</title>
 		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/fluid_grid.css">
 		<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic|Fauna+One' rel='stylesheet' type='text/css'>
@@ -11,10 +12,10 @@
 	<body>
 		<nav>
 			<div class="contain">
-				<ul>
-					<li><a id='nav-about' href="#about">About</a></li>
-					<li><a id='nav-work' href="#work">Work</a></li>
+				<ul class='clearfix'>
 					<li><a id='nav-contact' href="#contact">Contact</a></li>
+					<li><a id='nav-work' href="#work">Work</a></li>
+					<li><a id='nav-about' href="#about">About</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -34,71 +35,103 @@
 			<div id="main">		
 				<div id="about">
 					<div id="about-wrapper" class="contain">
-						<div id="about-info" class='clearfix'>
-							<h1>About</h1> 
+						<div id="about-info">
+							<h1 class="heading">About</h1> 
 
 							<p>My name is Matt and I am a problem solver.  My passion lies where creativity and technology collide. I am intrigued by intuitive design, fluid interactions, and interesting applications of technology.  I am currently a graduate student at Boulder Digital Works in Colorado, where I study interactive design and development. For fun I love to make music, skateboard, ski, and cook.</p>
 
-							<h2>How I Work&hellip;</h2>
-							<div class="process">
+							<div id="how-i-work" class='clearfix'>							
 								
-								<h3>Plan</h3>
-								<p>The strategy up front is crucial to a successful product.  Through research, observation, and analysis I identify exactly what the problem is, who the users are, and what are their pain points. This information sets the stage for design because all decisions will be made according to this data.</p>
-								<img src="img/plan.png" alt='plan'/>
+								<h2>How I Work&hellip;</h2>
+								<div class="process">
+									<img src="img/plan.png" alt='plan'/>
+									<h3>Plan</h3>
+									<p>The strategy up front is crucial to a successful product.  Through research, observation, and analysis I identify exactly what the problem is, who the users are, and what are their pain points. This information sets the stage for design because all decisions will be made according to this data.</p>
+								</div>
+
+								<div class="process">
+									<img src="img/design.png" alt='design'/>	
+									<h3>Design</h3>
+									<p>Armed with the knowledge of the planning phase I begin to concept and design what this product will be.  Its an iterative cycle of prototyping, testing, and improving. I like to think outside of the browser as well.  There are many amazing technologies emerging in the world of physical computing. Being aware of these allows you to push the product further than you otherwise might.</p>
+								</div>
+									
+								<div class="process">
+									<img src="img/build.png" alt='build'/>
+									<h3>Build</h3>
+									<p>My favorite part of the process is bringing the design to life. I decide what tools are right for the job and go to work coding with clean reusable code. I am constantly reading about and learning new technologies to increase the size of my toolbox for the next job.</p>
+								</div>
+
+							</div><!-- end how I work -->
+
+							<div id="tools-i-use" class='clearfix'>
+								
 								<ul>
 									<li>Competitor Analysis</li>
 									<li>User Interviews</li>
-									<li>Fill in the blank </li>
+									<li>Thinking Cap</li>
 								</ul>
 
-							</div>
-							<div class="process">
-								
-								<h3>Design</h3>
-								<p>Armed with the knowledge of the planning phase I begin to concept and design what this product will be.  Its an iterative cycle of prototyping, testing, and improving. I like to think outside of the browser as well.  There are many amazing technologies emerging in the world of physical computing. Being aware of these allows you to push the product further than you otherwise might.</p>
-								<img src="img/design.png" alt='design'/>
 								<ul>
 									<li>Photoshop</li>
 									<li>Illustrator</li>
 									<li>After Effects</li>
+									<li>Cinema 4D</li>
 								</ul>
 
-							</div>
-							<div class="process">
-								
-								<h3>Build</h3>
-								<p>My favorite part of the process is bringing the design to life. I decide what tools are right for the job and go to work coding with clean reusable code. I am constantly reading about and learning new technologies to increase the size of my toolbox for the next job.</p>
-								<img src="img/build.png" alt='build'/>
 								<ul>
 									<li>HTML5 / CSS3</li>
 									<li>Javascript</li>
 									<li>Node.js</li>
-								</ul>
-
+									<li>Ruby / RoR</li>
+								</ul>								
+								
 							</div>
 						</div>
 					</div>
 				</div>
 
 				<div id="work" class="contain">
-					<h1>Work</h1>
+					<h1 class="heading">Work</h1>
 				</div>
 
 				<div id='contact'>
 					<div class="contain">
-						<h1>Contact</h1>
+						<h1 class="heading">Contact</h1>
+
+						<div class="clearfix">
+							<div class="sect-wrapper">
+								<h2>I would love to connect. Please get in Touch.</h2>
+								<div id="contact-info">
+									<p>email: <a href="mailto:matt.flesher@gmail.com">matt.flesher@gmail.com</a></p>
+									<p>phone: 440.829.9470</p>
+									<p>address: 450 Washington St. Denver, CO 80203</p>
+								</div>
+
+								<div id="social">
+									<a href="https://twitter.com/MattFresher" target="_blank"><img src="img/icons-twitter-dark.png" alt="img"/></a>
+									<a href="http://instagram.com/mattflesher" target="_blank"><img src="img/icons-insta-dark.png" alt="img"/></a>
+									<a href="https://github.com/mflesher6" target="_blank"><img src="img/icons-github-dark.png" alt="img"/></a>
+									<a href="www.linkedin.com/in/matthewflesher/" target="_blank"><img src="img/icons-linkedin-dark.png" alt="img"/></a>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
 
 			</div><!-- end #main -->
 		</div><!-- end outer -->
+		<div id="project-detail"></div>
 
 		<script type="text/javascript" src="js/libs/jquery.min.js"></script> <!-- TODO: cdn with local fallbacks -->
 		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+		<script type="text/javascript" src="js/libs/backbone.js"></script>
 		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.5/jquery.scrollTo.min.js"></script>
 		<script type="text/javascript" src="js/libs/bootstrap-scrollspy.min.js"></script>
+		<script type="text/javascript" src="js/libs/responsiveslides.min.js"></script>
 		<script type="text/javascript" src="js/namespaces.js"></script>
 		<script type="text/javascript" src="js/projtemplate.js"></script>
+		<script type="text/javascript" src="js/router.js"></script>
 		<script type="text/javascript" src="js/setup.js"></script>
 		<script type="text/javascript" src="js/triangles.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>

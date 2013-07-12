@@ -1,11 +1,5 @@
 (function($){
-
-	mFlesh.triangles = [];
-	mFlesh.windowW = $(window).outerWidth();
-	mFlesh.windowH = $(window).outerHeight();
-
 	var _self   = this;
-	var _density = 8;
 
 	/************************************
 	 * public init:void
@@ -13,14 +7,15 @@
 	 * 
 	 ************************************
 	/                                   */
-	_self.init = function() {
+	_self.initTri = function() {
+		var _density = 8;
 		var size        = mFlesh.windowW / _density;
 		var vertDensity = mFlesh.windowH / (size / 2);
 		var even;
 
-		$('#home').height(mFlesh.windowH);
-		$('#home').width(mFlesh.windowW);
-		$('#outer').css('padding-top', mFlesh.windowH );
+	  $('#home').height(mFlesh.windowH);
+	  $('#home').width(mFlesh.windowW);
+	  $('#outer').css('padding-top', mFlesh.windowH );
 
 		_setUp();
 
