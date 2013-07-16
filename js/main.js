@@ -58,6 +58,11 @@ $(document).ready(function(){
     $.scrollTo('#contact', 750, 'swing');
   });
 
+  $('.close-det').click(function(event){
+    event.preventDefault();
+    backbone.history.navigate('/', true);
+  })
+
 
 
   /***********************************
@@ -132,7 +137,7 @@ $(document).ready(function(){
     });
 
 
-    $(".rslides").responsiveSlides();
+    
 
 
 

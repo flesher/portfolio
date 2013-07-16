@@ -19,7 +19,7 @@
 			mX : 0,
 			mY : 0,
 
-			dA : 0.5
+			dA : 0.3
 		}
 
 		expose.init = function() {

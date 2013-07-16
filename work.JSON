@@ -1,43 +1,96 @@
 {
-	"theahheffect" : {
-		"title"   : "The Ahh Effect",
-		"blurb"   : "Experience for Coca Cola campaign",
-		"desc"    : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
-		"link"    : "#project/theahheffect",
-		"image"   : "http://lorempixel.com/600/400/",
-		"bgImage" : "img/maniac-kernels-bg.jpg",
-		"images"  : [
-				"http://lorempixel.com/600/400/",
-				"http://lorempixel.com/600/400/",
-				"http://lorempixel.com/600/400/"
+	"maniackernels" : {
+		"title"      : "The Ahh Effect: Maniac Kernels",
+		"client"     : "Coke-a-Cola &amp; AMC Theatres",
+		"blurb"      : "Experience for Coka Ahh Effect",
+		"desc"       : "Maniac Kernels was a game I built for the Coke Ahh Effect campaign. The concept is to fly around in a coke bottle space craft and shoot down maniac popcorn kernels before they hit you.",
+		"desc2"		   : "Maniac Kernels is an html5 game built with Javascript and Canvas. The experience has been optimized for mobile devices by enabling native features for game play,  such as using their gyroscope to steer.",
+		"link"       : "#project/maniackernels",
+		"prImage"    : "img/kernels-pr.jpg",
+		"launchLink" : "http://www.ahhhhhhhhhhhhhhhhhh.com/",
+		"launchText" : "Launch Game",
+		"bgImage"    : "img/maniac-kernels-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/kernels-1.png",
+				"caption" : " "
+ 			},
+			{
+				"image" : "img/kernels-2.png"
+ 			}
 		]
 	},
 
 	"piq" : {
-		"title"  : "piq",
-		"blurb"  : "A jukebox for social spaces",
-		"link"   : "#project/piq",
-		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
-		"image" : "http://lorempixel.com/600/400/",
-		"image2" : "http://lorempixel.com/600/400/"
+		"title"      : "piq",
+		"client"     : "a jukebox for social spaces",
+		"blurb"      : "a jukebox for social spaces",
+		"desc"       : " ",
+		"desc2"		   : " ",
+		"link"       : "#project/piq",
+		"prImage"    : "img/piq-pr.jpg",
+		"launchLink" : "http://www.piq.fm/",
+		"launchText" : "Launch Case Study",
+		"bgImage"    : "img/maniac-kernels-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/kernels-1.png",
+				"caption" : " "
+ 			},
+			{
+				"image" : "img/kernels-2.png"
+ 			}
+		]
 	},
 
-	"RoboticPirateMonkey" : {
-		"title"  : "Robotic Pirate Monkey",
-		"blurb"  : "Band site for electronic group",
-		"link"   : "#project/RoboticPirateMonkey",
-		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
-		"image"  : "http://lorempixel.com/600/400/",
-		"image2" : "http://lorempixel.com/600/400/"
+	"roboticpiratemonkey" : {
+		"title"      : "Robotic Pirate Monkey",
+		"client"     : "band website for electronic group",
+		"blurb"      : "band website for electronic group",
+		"desc"       : "Robotic Pirate Monkey was a project of mine and two friends for the last three years. We toured the country numerous times and played at venues such as Red Rocks, and Coachella. I designed and built the website for RPM keeping in mind what was most critical to our fans.  In one simple interface fans could now find all of our music, see upcoming tour dates, and purchase merchandise all in one place.",
+		"desc2"		   : "One major concern was that content needed to always be fresh and thus easy to update. For this reason I build roboticpiratemonkey.com in wordpress, and incorporated external API's such as SoundCloud and SongKick.",
+		"link"       : "#project/roboticpiratemonkey",
+		"prImage"    : "img/rpm-pr.jpg",
+		"launchLink" : "http://roboticpiratemonkey.com",
+		"launchText" : "Launch Site",
+		"bgImage"    : "img/rpm-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/rpm-1.png",
+				"caption" : " "
+ 			},
+			{
+				"image" : "img/rpm-2.png"
+ 			},
+ 			{
+				"image" : "img/rpm-3.jpg"
+ 			}
+		]
 	},
 
-	"AHh3" : {
-		"title"  : "Mr. Excavator",
-		"blurb"  : "Business site for excavation contractor",
-		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
-		"link"   : "#project/:id",
-		"image"  : "http://lorempixel.com/600/400/",
-		"image2" : "http://lorempixel.com/600/400/"
+	"mrexcavator" : {
+		"title"      : "Mr. Excavator",
+		"client"     : "business website for excavation contractor",
+		"blurb"      : "business website for excavation contractor",
+		"desc"       : "Mr Excavator is an excavation contractor from North East, OH.  The goals for their website are to prove their capabilities, provide  easily accessible contact information, have a place for people to apply for jobs online, and display their business in a professional manner.",
+		"desc2"		   : "To accomplish these goals I explored all potential content I had to work with and organized it according to these business objectives.  Things like past work, and equipment seemed to naturally reinforce capabilities so they were placed after the section where services are explicitly listed.",
+		"link"       : "#project/mrexcavator",
+		"prImage"    : "img/mrex-pr.jpg",
+		"launchLink" : "http://mrexcavator.com",
+		"launchText" : "Launch Site",
+		"bgImage"    : "img/mrex-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/mrex-1.png",
+				"caption" : " "
+ 			},
+			{
+				"image" : "img/mrex-1.png"
+ 			},
+ 			{
+				"image" : "img/mrex-3.png"
+ 			}
+		]
 	},
 
 	"AHh4" : {
@@ -45,7 +98,7 @@
 		"blurb"  : "Spec work for physical experience at 2014 World Cup",
 		"link"   : "#project/:id",
 		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
-		"image" : "http://lorempixel.com/600/400/",
+		"prImage" : "http://lorempixel.com/600/400/",
 		"image2" : "http://lorempixel.com/600/400/"
 	},
 
@@ -54,7 +107,7 @@
 		"blurb"  : "A jQuery plugin for a flipboard-esque effect",
 		"link"   : "#project/:id",
 		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
-		"image" : "http://lorempixel.com/600/400/",
+		"prImage" : "http://lorempixel.com/600/400/",
 		"image2" : "http://lorempixel.com/600/400/"
 	}
 }
