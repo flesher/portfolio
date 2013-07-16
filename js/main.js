@@ -58,13 +58,6 @@ $(document).ready(function(){
     $.scrollTo('#contact', 750, 'swing');
   });
 
-  $('.close-det').click(function(event){
-    event.preventDefault();
-    backbone.history.navigate('/', true);
-  })
-
-
-
   /***********************************
    * Scroll events
    *
@@ -75,19 +68,19 @@ $(document).ready(function(){
 
   $(window).on('scroll', function(){
 
-    var scrollTop   = $(window).scrollTop(),
+    mFlesh.scrollTop   = $(window).scrollTop(),
 
       aboutOffset   = $('#about').offset().top,
-      aboutDistance = (aboutOffset - scrollTop),
+      aboutDistance = (aboutOffset - mFlesh.scrollTop),
 
       bg            = $('nav').hasClass('nav-bg'),
       navHeight     = $('nav').height(),
 
       workOffset    = $('#work').offset().top,
-      workDistance  = (workOffset - scrollTop),
+      workDistance  = (workOffset - mFlesh.scrollTop),
 
       contOffset    = $('#contact').offset().top,
-      contDistance  = (contOffset - scrollTop);
+      contDistance  = (contOffset - mFlesh.scrollTop);
 
     //add class to nav when scrolled past home
     if (aboutDistance < navHeight && !bg) $('nav').addClass('nav-bg');
@@ -97,10 +90,10 @@ $(document).ready(function(){
     if (aboutDistance < navHeight && workDistance > navHeight) {
       $('nav li').removeClass('active');
       $('#nav-about').parent().addClass('active');    
-    } else if (workDistance <= navHeight && contDistance > navHeight && scrollTop + $(window).height() != $(document).height()) {
+    } else if (workDistance <= navHeight && contDistance > navHeight && mFlesh.scrollTop + $(window).height() != $(document).height()) {
       $('nav li').removeClass('active');
       $('#nav-work').parent().addClass('active');   
-    } else if (contDistance <= navHeight || scrollTop + $(window).height() == $(document).height()) {
+    } else if (contDistance <= navHeight || mFlesh.scrollTop + $(window).height() == $(document).height()) {
       $('nav li').removeClass('active');
       $('#nav-contact').parent().addClass('active');  
     } else {
@@ -135,13 +128,6 @@ $(document).ready(function(){
       }
 
     });
-
-
-    
-
-
-
-
 });
 
 

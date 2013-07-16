@@ -12,7 +12,6 @@ mFlesh.workTemp = [
 
 mFlesh.workDetailTemp = [
 	'<div class="det-coverup">',
-		// '<img src="img/spinner.gif" alt="spinner"/>',
 	'</div>',
 	'<div class="det-content">',
 		'<a class="close-det" href="/portfolio/portfolio"><img src="img/close-icon.png" alt="close"/></a>',
@@ -35,6 +34,7 @@ mFlesh.workDetailTemp = [
 	'</div>',
 ].join('');
 
+
 mFlesh.additionalSlides = [
 	'<li class="add-slide">',
 			'<img src="<%= image %>" alt="duh"/>',
@@ -49,6 +49,7 @@ mFlesh.additionalSlides = [
 			var html = compiled(data[i]);
 			$('#work').append(html);
 		}
+		
 	});
 
 })();
