@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
   /***********************************
    * Resize
    *
@@ -10,6 +11,7 @@ $(document).ready(function(){
     mFlesh.windowW = $(window).outerWidth();
     mFlesh.windowH = $(window).outerHeight();
 
+    $("#canvas").remove();
     mFlesh.triangles = [];
     mFlesh.initTri();
   });
@@ -40,22 +42,22 @@ $(document).ready(function(){
   //scroll links
   $('#nav-about').click(function(event){
     event.preventDefault();
-    $.scrollTo('#about', 750, 'swing');
+    $.scrollTo('#about', 750, {axis:'y'}, 'swing');
   });
 
   $('#scroll a').click(function(event){
     event.preventDefault();
-    $.scrollTo('#about', 750, 'swing');
+    $.scrollTo('#about', 750, {axis:'y'}, 'swing');
   });
 
   $('#nav-work').click(function(event){
     event.preventDefault();
-    $.scrollTo('#work', 750, 'swing');
+    $.scrollTo('#work', 750, {axis:'y'}, 'swing');
   });
 
   $('#nav-contact').click(function(event){
     event.preventDefault();
-    $.scrollTo('#contact', 750, 'swing');
+    $.scrollTo('#contact', 750, {axis:'y'}, 'swing');
   });
 
   /***********************************
@@ -110,7 +112,6 @@ $(document).ready(function(){
 
     mFlesh.windowW = $(window).outerWidth();
     mFlesh.windowH = $(window).outerHeight();
-
     mFlesh.triangles = [];
     
     mFlesh.initTri();

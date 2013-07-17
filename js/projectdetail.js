@@ -13,7 +13,6 @@
       var self         = this;
       var compiled     = _.template(mFlesh.workDetailTemp);
       var compiled2    = _.template(mFlesh.additionalSlides);
-      console.log(mFlesh.scrollTop);
 
       self.$el.show();
       $("body").css("overflow", "hidden");
@@ -35,7 +34,9 @@
 
         $(".rslides").responsiveSlides({
           auto: false,
-          pager: true
+          pager: true,
+          nav: true,
+          namespace: "transparent-btns"
         });
 
         $('.det-content').css('background-image', 'url(' + data[name].bgImage + ')');

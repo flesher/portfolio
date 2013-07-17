@@ -9,7 +9,7 @@
 		"prImage"    : "img/kernels-pr.jpg",
 		"launchLink" : "http://www.ahhhhhhhhhhhhhhhhhh.com/",
 		"launchText" : "Launch Game",
-		"bgImage"    : "img/maniac-kernels-bg.jpg",
+		"bgImage"    : "img/kernels-bg.jpg",
 		"images"     : [ 
 			{
 				"image"   : "img/kernels-1.png",
@@ -85,7 +85,7 @@
 				"caption" : " "
  			},
 			{
-				"image" : "img/mrex-1.png"
+				"image" : "img/mrex-2.png"
  			},
  			{
 				"image" : "img/mrex-3.png"
@@ -93,13 +93,29 @@
 		]
 	},
 
-	"AHh4" : {
-		"title"  : "Powered by Pride",
-		"blurb"  : "Spec work for physical experience at 2014 World Cup",
-		"link"   : "#project/:id",
-		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
-		"prImage" : "http://lorempixel.com/600/400/",
-		"image2" : "http://lorempixel.com/600/400/"
+	"poweredbypride" : {
+		"title"      : "Powered by Pride",
+		"client"     : "Concept for Nike at World Cup 2014",
+		"blurb"      : "Concept for Nike at World Cup 2014",
+		"desc"       : "",
+		"desc2"		   : "",
+		"link"       : "#project/poweredbypride",
+		"prImage"    : "img/nike-pr.jpg",
+		"launchLink" : "http://mrexcavator.com",
+		"launchText" : "Launch Site",
+		"bgImage"    : "img/nike-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/nike-1.png",
+				"caption" : " "
+ 			},
+			{
+				"image" : "img/nike-2.jpg"
+ 			},
+ 			{
+				"image" : "img/nike-3.jpg"
+ 			}
+		]
 	},
 
 	"AHh5" : {

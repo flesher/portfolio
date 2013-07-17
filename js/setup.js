@@ -1,5 +1,7 @@
 (function($){
 	var _self   = this;
+	// mFlesh.windowW = $(window).outerWidth();
+	// mFlesh.windowH = $(window).outerHeight();
 
 	/************************************
 	 * public init:void
@@ -13,9 +15,9 @@
 		var vertDensity = mFlesh.windowH / (size / 2);
 		var even;
 
-	  $('#home').height(mFlesh.windowH);
-	  $('#home').width(mFlesh.windowW);
-	  $('#outer').css('padding-top', mFlesh.windowH );
+		$('#home').height(mFlesh.windowH);
+    $('#home').width(mFlesh.windowW);
+    $('#outer').css('top', mFlesh.windowH );
 
 		_setUp();
 
@@ -30,7 +32,7 @@
 					(i * size/2),
 					size/2 , 
 					//253,251,238,1); //cream
-					255,255,255,0.7);		//dark black
+					255,255,255,0.7);		//white
 
 				mFlesh.triangles.push(Tri);
 			}	
@@ -54,14 +56,16 @@
 		}
 
 		expose.init = function(){
-			expose.w = $('#home').width();
-			expose.h = $('#home').height();
+			expose.w = mFlesh.windowW;
+			expose.h = mFlesh.windowH;
 			_createCanvas();
 		}
 
 		expose.resize = function(){
-			expose.w = windowW;
-			expose.h = windowH;
+			// expose.w = mFlesh.windowW;
+			// expose.h = mFlesh.windowH;
+			// $('#canvas').attr('width', expose.w);
+			// $('#canvas').attr('height', expose.w);
 
 			//TODO: set attrs of canvas here
 		}
@@ -69,7 +73,9 @@
 		function _createCanvas(){
 			mFlesh.el     = $('<canvas id="canvas" width="' + expose.w + '" height="' + expose.h + '"/>').appendTo($('#home'));
 			if (typeof FlashCanvas != "undefined") FlashCanvas.initElement(el[0]);
-			mFlesh.canvas = mFlesh.el[0];
+			$('#canvas').attr('width', expose.w);
+			$('#canvas').attr('height', expose.w);
+			mFlesh.canvas = $('#canvas')[0];
 			mFlesh.ctx    = mFlesh.canvas.getContext('2d');	
 		}
 
