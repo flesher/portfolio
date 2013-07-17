@@ -51,15 +51,6 @@
 
         mFlesh.preload(preload);
       });
-
-     // $(document).keydown(function(e) {
-     //     e.stopPropagation(); // not sure if you will need this but it should stop horizontal scrolling
-     //     if(e.keyCode === 37) {
-     //         $(".prev").click();
-     //     } else if(e.keyCode === 39) {
-     //         $(".next").click();
-     //     }
-     // });
     },
 
     dump : function() {

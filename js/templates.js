@@ -40,16 +40,3 @@ mFlesh.additionalSlides = [
 			'<img src="<%= image %>" alt="duh"/>',
 	'</li>'
 ].join('');
-
-(function(){
-	var compiled = _.template(mFlesh.workTemp);
-	$.get('work.json', function(data) {
-		
-		for(var i in data){
-			var html = compiled(data[i]);
-			$('#work').append(html);
-		}
-		
-	});
-
-})();

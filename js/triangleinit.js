@@ -37,9 +37,7 @@
 				mFlesh.triangles.push(Tri);
 			}	
 		}
-
 	}
-
 
 	/************************************
 	 * privat setup:void

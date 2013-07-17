@@ -29,11 +29,15 @@
   border-bottom: dashed 1px #333;
 }
 
-#main {
-  background: #fdfbee;
-  z-index: 2;
-  position: relative;
+#mainloader {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  background: #111 url(../img/spinner.gif) 50% 50% no-repeat;
 }
+
+
 
 @media (max-width: 320px){
   * {
@@ -83,6 +87,12 @@ body {
 #outer {
   position: relative;
   z-index: 2;
+}
+
+#main {
+  background: #fdfbee;
+  z-index: 2;
+  position: relative;
 }
 
 #title {
