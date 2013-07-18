@@ -1,0 +1,19 @@
+{
+  "name": "Portfolio",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+
+  },
+  
+  "devDependencies":{
+    "grunt": "*",
+    "grunt-contrib-watch": "0.3.1",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "0.2.0",
+    "grunt-mocha-test": "0.2.2",
+    "should": "*",
+    "mocha": "*",
+    "grunt-contrib-cssmin" : "*"
+  }
+}

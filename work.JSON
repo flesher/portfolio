@@ -12,8 +12,7 @@
 		"bgImage"    : "img/kernels-bg.jpg",
 		"images"     : [ 
 			{
-				"image"   : "img/kernels-1.png",
-				"caption" : " "
+				"image"   : "img/kernels-1.png"
  			},
 			{
 				"image" : "img/kernels-2.png"
@@ -30,7 +29,7 @@
 		"link"       : "#project/piq",
 		"prImage"    : "img/piq-pr.jpg",
 		"launchLink" : "http://www.piq.fm/",
-		"launchText" : "Launch Case Study",
+		"launchText" : "View Case Study",
 		"bgImage"    : "img/piq-bg.jpg",
 		"images"     : [ 
 			{
@@ -50,7 +49,7 @@
 		"client"     : "band website for electronic group",
 		"blurb"      : "band website for electronic group",
 		"desc"       : "Robotic Pirate Monkey was a project of mine and two friends for the last three years. We toured the country numerous times and played at venues such as Red Rocks, and Coachella.",
-		"desc2"		   : " I designed and built the website for RPM keeping in mind what is most critical to our fans.  In one simple interface fans can now find all of our music, see upcoming tour dates, and purchase merchandise all in one place. A major concern is that the content needed to always be fresh and thus easy to update. For this reason I build roboticpiratemonkey.com in wordpress, and incorporated external API's such as Soundcloud and Song Kick.",
+		"desc2"		   : "I designed and built the website for RPM keeping in mind what is most critical to our fans.  In one simple interface fans can now find all of our music, see upcoming tour dates, and purchase merchandise all in one place. A major concern is that the content needed to always be fresh and thus easy to update. For this reason I build roboticpiratemonkey.com in wordpress, and incorporated external API's such as Soundcloud and Song Kick.",
 		"link"       : "#project/roboticpiratemonkey",
 		"prImage"    : "img/rpm-pr.jpg",
 		"launchLink" : "http://roboticpiratemonkey.com",
@@ -58,8 +57,7 @@
 		"bgImage"    : "img/rpm-bg.jpg",
 		"images"     : [ 
 			{
-				"image"   : "img/rpm-1.png",
-				"caption" : " "
+				"image"   : "img/rpm-1.png"
  			},
 			{
 				"image" : "img/rpm-2.png"
@@ -108,8 +106,7 @@
 		"bgImage"    : "img/mrex-bg.jpg",
 		"images"     : [ 
 			{
-				"image"   : "img/mrex-1.png",
-				"caption" : " "
+				"image"   : "img/mrex-1.png"
  			},
 			{
 				"image" : "img/mrex-2.png"
