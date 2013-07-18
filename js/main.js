@@ -38,7 +38,8 @@ $(document).ready(function(){
     setTimeout(function(){
       $('#scroll').fadeIn(500);
       $('#scroll').addClass('scroll-show');
-    }, 2000);  
+      $('body').css('overflow', 'inherit'); 
+    }, 2000); 
   }
 
   /***********************************

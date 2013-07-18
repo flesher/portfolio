@@ -22,7 +22,7 @@ mFlesh.workDetailTemp = [
 					'<h2><%= client %></h2>',
 					'<p><%= desc %></p>',
 					'<p><%= desc2 %></p>',
-					'<a href="<%= launchLink %>" target="_blank"> <%= launchText %></a>',	
+					'<a class="launch" href="<%= launchLink %>" target="_blank"> <%= launchText %></a>',	
 				'</div>',	
 			'</div>',
 			'<div class="det-imgs">',

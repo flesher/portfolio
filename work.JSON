@@ -1,10 +1,10 @@
 {
 	"maniackernels" : {
-		"title"      : "The Ahh Effect: Maniac Kernels",
+		"title"      : "Maniac Kernels",
 		"client"     : "Coke-a-Cola &amp; AMC Theatres",
-		"blurb"      : "Experience for Coka Ahh Effect",
-		"desc"       : "Maniac Kernels was a game I built for the Coke Ahh Effect campaign. The concept is to fly around in a coke bottle space craft and shoot down maniac popcorn kernels before they hit you.",
-		"desc2"		   : "Maniac Kernels is an html5 game built with Javascript and Canvas. The experience has been optimized for mobile devices by enabling native features for game play,  such as using their gyroscope to steer.",
+		"blurb"      : "Experience for Coca-Cola Ahh Effect",
+		"desc"       : "Maniac Kernels is a game I built for the <a href=\"http://www.ahh.com/\" target=\"_blank\">Ahh Effect</a> campaign by Coca Cola. This particular experience is a collaboration between Coca-Cola and AMC Theatres. The concept is to fly around in a coke bottle space craft and shoot down maniac popcorn kernels before they hit you.",
+		"desc2"		   : "Maniac Kernels is an html5 game built with Javascript and Canvas. The experience has been optimized for mobile devices by enabling native features for game play,  such as their gyroscope to steer. In addition to the development of the game I also did all of the sound design.",
 		"link"       : "#project/maniackernels",
 		"prImage"    : "img/kernels-pr.jpg",
 		"launchLink" : "http://www.ahhhhhhhhhhhhhhhhhh.com/",
@@ -25,20 +25,22 @@
 		"title"      : "piq",
 		"client"     : "a jukebox for social spaces",
 		"blurb"      : "a jukebox for social spaces",
-		"desc"       : " ",
-		"desc2"		   : " ",
+		"desc"       : "piq is a modern day jukebox that leverages cloud technologies to enable people to collaborate with music like never before.  piq is a hardware device paired with a web application that allows anyone within a physical space select songs to add to the queue which is then streamed off the device.",
+		"desc2"		   : "piq is a startup created by myself and two others. I am responsible for the design and front end development of the web application.",
 		"link"       : "#project/piq",
 		"prImage"    : "img/piq-pr.jpg",
 		"launchLink" : "http://www.piq.fm/",
 		"launchText" : "Launch Case Study",
-		"bgImage"    : "img/maniac-kernels-bg.jpg",
+		"bgImage"    : "img/piq-bg.jpg",
 		"images"     : [ 
 			{
-				"image"   : "img/kernels-1.png",
-				"caption" : " "
+				"image"   : "img/piq-1.png"
  			},
 			{
-				"image" : "img/kernels-2.png"
+				"image" : "img/piq-2.png"
+ 			},
+ 			{
+				"image" : "img/piq-3.png"
  			}
 		]
 	},
@@ -47,8 +49,8 @@
 		"title"      : "Robotic Pirate Monkey",
 		"client"     : "band website for electronic group",
 		"blurb"      : "band website for electronic group",
-		"desc"       : "Robotic Pirate Monkey was a project of mine and two friends for the last three years. We toured the country numerous times and played at venues such as Red Rocks, and Coachella. I designed and built the website for RPM keeping in mind what was most critical to our fans.  In one simple interface fans could now find all of our music, see upcoming tour dates, and purchase merchandise all in one place.",
-		"desc2"		   : "One major concern was that content needed to always be fresh and thus easy to update. For this reason I build roboticpiratemonkey.com in wordpress, and incorporated external API's such as SoundCloud and SongKick.",
+		"desc"       : "Robotic Pirate Monkey was a project of mine and two friends for the last three years. We toured the country numerous times and played at venues such as Red Rocks, and Coachella.",
+		"desc2"		   : " I designed and built the website for RPM keeping in mind what is most critical to our fans.  In one simple interface fans can now find all of our music, see upcoming tour dates, and purchase merchandise all in one place. A major concern is that the content needed to always be fresh and thus easy to update. For this reason I build roboticpiratemonkey.com in wordpress, and incorporated external API's such as Soundcloud and Song Kick.",
 		"link"       : "#project/roboticpiratemonkey",
 		"prImage"    : "img/rpm-pr.jpg",
 		"launchLink" : "http://roboticpiratemonkey.com",
@@ -68,12 +70,37 @@
 		]
 	},
 
+	"poweredbypride" : {
+		"title"      : "Powered by Pride",
+		"client"     : "Concept for Nike at World Cup 2014",
+		"blurb"      : "Concept for Nike at World Cup 2014",
+		"desc"       : "Powered by pride is a concept born out of the BDW Book Lab series.  These labs are two day sprints hosted by various companies that come into BDW with a problem/ brief. The brief for this project was provided by <a href=\"http://www.wirestone.com/\" target=\"_blank\">Wirestone</a> and was to come up with integrated experience for Nike to use at the upcoming World Cup in Brazil.",
+		"desc2"		   : "Powered by Pride is a two part strategy. The first part is a companion application for soccer fans. Here users can state their allegience and follow their team leading up to the World Cup.  The second part is a physical experience that would be in Brazil during the World Cup and would lean on the data provided by the application.",
+		"link"       : "#project/poweredbypride",
+		"prImage"    : "img/nike-pr.jpg",
+		"launchLink" : "http://mrexcavator.com",
+		"launchText" : "View Case Study",
+		"bgImage"    : "img/nike-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/nike-1.png",
+				"caption" : " "
+ 			},
+			{
+				"image" : "img/nike-2.jpg"
+ 			},
+ 			{
+				"image" : "img/nike-3.jpg"
+ 			}
+		]
+	},
+
 	"mrexcavator" : {
 		"title"      : "Mr. Excavator",
 		"client"     : "business website for excavation contractor",
 		"blurb"      : "business website for excavation contractor",
-		"desc"       : "Mr Excavator is an excavation contractor from North East, OH.  The goals for their website are to prove their capabilities, provide  easily accessible contact information, have a place for people to apply for jobs online, and display their business in a professional manner.",
-		"desc2"		   : "To accomplish these goals I explored all potential content I had to work with and organized it according to these business objectives.  Things like past work, and equipment seemed to naturally reinforce capabilities so they were placed after the section where services are explicitly listed.",
+		"desc"       : "Mr Excavator is an excavation contractor in North East, OH.  The main objectives for their website are to prove their capabilities, provide easily accessible contact information, have a place for people to apply for jobs online, and display their business in a professional manner.",
+		"desc2"		   : "To accomplish these goals I explored all potential content I had to work with and organized it according to these business goals.  For example, things like past work, and equipment seemed to naturally reinforce capabilities so they were placed after the section where services are explicitly listed.",
 		"link"       : "#project/mrexcavator",
 		"prImage"    : "img/mrex-pr.jpg",
 		"launchLink" : "http://mrexcavator.com",
@@ -91,40 +118,6 @@
 				"image" : "img/mrex-3.png"
  			}
 		]
-	},
-
-	"poweredbypride" : {
-		"title"      : "Powered by Pride",
-		"client"     : "Concept for Nike at World Cup 2014",
-		"blurb"      : "Concept for Nike at World Cup 2014",
-		"desc"       : "",
-		"desc2"		   : "",
-		"link"       : "#project/poweredbypride",
-		"prImage"    : "img/nike-pr.jpg",
-		"launchLink" : "http://mrexcavator.com",
-		"launchText" : "Launch Site",
-		"bgImage"    : "img/nike-bg.jpg",
-		"images"     : [ 
-			{
-				"image"   : "img/nike-1.png",
-				"caption" : " "
- 			},
-			{
-				"image" : "img/nike-2.jpg"
- 			},
- 			{
-				"image" : "img/nike-3.jpg"
- 			}
-		]
-	},
-
-	"AHh5" : {
-		"title"   : "Flippable.js",
-		"blurb"  : "A jQuery plugin for a flipboard-esque effect",
-		"link"   : "#project/:id",
-		"desc"   : "Lorem Ipsum dolar amor lad dee fucking dah ba blah blaad",
-		"prImage" : "http://lorempixel.com/600/400/",
-		"image2" : "http://lorempixel.com/600/400/"
 	}
 }
 
