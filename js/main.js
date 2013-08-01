@@ -36,7 +36,7 @@ $(document).ready(function(){
     }, 1500);
 
     setTimeout(function(){
-      $('#scroll').fadeIn(500);
+      $('#scroll').fadeIn(750);
       $('#scroll').addClass('scroll-show');
       $('body').css('overflow', 'inherit'); 
     }, 2000); 
@@ -85,12 +85,13 @@ $(document).ready(function(){
   ************************************
   /                                  */
 
+
   $('#nav-about').click(function(event){
     event.preventDefault();
     $.scrollTo('#about', 750, {axis:'y'}, 'swing');
   });
 
-  $('#scroll a').click(function(event){
+  $('#scroll').click(function(event){
     event.preventDefault();
     $.scrollTo('#about', 750, {axis:'y'}, 'swing');
   });

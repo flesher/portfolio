@@ -57,7 +57,7 @@
       this.$el.empty();
       this.$el.fadeOut(1000);
       $(window).scrollTo(mFlesh.scrollTop, 0);
-      $("body").css("overflow", "inherit");
+       $("body").css("overflow", "inherit");
     }
 
   });

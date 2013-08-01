@@ -19,7 +19,7 @@
 			mX : 0,
 			mY : 0,
 
-			dA : 0.3
+			dA : 0.4
 		}
 
 		expose.init = function() {
@@ -55,8 +55,11 @@
 			mFlesh.ctx.moveTo(x, y);
 			mFlesh.ctx.lineTo(x, y - w);
 			mFlesh.ctx.lineTo(x - w, y);
+			mFlesh.ctx.lineWidth = .1;
+			mFlesh.ctx.strokeStyle = 'rgba(98,208,244,'+ 0.5 * expose.props.dA +')';
 			mFlesh.ctx.closePath();
 			mFlesh.ctx.fill();
+			mFlesh.ctx.stroke();
 
 			//triangle 2
 			mFlesh.ctx.beginPath();
@@ -64,8 +67,11 @@
 			mFlesh.ctx.moveTo(x, y);
 			mFlesh.ctx.lineTo(x, y - w);
 			mFlesh.ctx.lineTo(x + w, y);
+			mFlesh.ctx.lineWidth = .1;
+			mFlesh.ctx.strokeStyle = 'rgba(98,208,244,'+ 0.5 * expose.props.dA +')';
 			mFlesh.ctx.closePath();
 			mFlesh.ctx.fill();
+			mFlesh.ctx.stroke();
 
 			//triangle 3
 			mFlesh.ctx.beginPath();
@@ -73,17 +79,24 @@
 			mFlesh.ctx.moveTo(x, y);
 			mFlesh.ctx.lineTo(x, y + w);
 			mFlesh.ctx.lineTo(x - w, y);
+			mFlesh.ctx.lineWidth = .1;
+			mFlesh.ctx.strokeStyle = 'rgba(98,208,244,'+ 0.5 * expose.props.dA +')';
 			mFlesh.ctx.closePath();
 			mFlesh.ctx.fill();
-
+			mFlesh.ctx.stroke();
 			//triangle 4
 			mFlesh.ctx.beginPath();
 			mFlesh.ctx.fillStyle = 'rgba(' + expose.props.r + ',' + expose.props.g + ',' + expose.props.b + ',' + expose.props.a * expose.props.a4 * expose.props.dA + ')';
 			mFlesh.ctx.moveTo(x, y);
 			mFlesh.ctx.lineTo(x, y + w);
 			mFlesh.ctx.lineTo(x + w, y);
+			mFlesh.ctx.lineWidth = .1;
+			mFlesh.ctx.strokeStyle = 'rgba(98,208,244,'+ 0.5 * expose.props.dA +')';
 			mFlesh.ctx.closePath();
 			mFlesh.ctx.fill();
+			mFlesh.ctx.stroke();
+
+
 
 		}
 

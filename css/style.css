@@ -121,28 +121,33 @@ body {
   color: #62d0f4;
 }
 
-#scroll {
+#scroll{
+  background: url(../img/scroll-icon.png) 50% 50%;
+  background-size: contain;
   position: absolute;
   font-family: 'Noto Sans';
+  font-size: 0.9em;
   font-weight: 100;
-  width: 70px;
+  width: 60px;
+  height: 60px;
   bottom: 0px;
   left: 50%;
-  color: #62d0f4;
+  color: #fdfbee;
   text-align: center;
   margin-left: -36px;
-  border-top: 1px solid rgba(253,251,238,0.2);
-  border-left: 1px solid rgba(253,251,238,0.2);
-  border-right: 1px solid rgba(253,251,238,0.2);
+  text-decoration: none;
   display: none;
   z-index: 1;
+  padding-top: 10px;
+  text-transform: uppercase;
+  transition: color .5s;
+  -webkit-transition: color .5s;
+  -moz-transition: color .5s;
+  -o-transition: color .5s;
 }
 
-#scroll a {
-  font-family: 'Noto Sans';
-  font-weight: 100;
+#scroll:hover {
   color: #62d0f4;
-  text-decoration: none;
 }
 
 #scroll .scroll-show {
@@ -159,6 +164,7 @@ nav {
   transition: top .5s;
   -webkit-transition: top .5s;
   -moz-transition: top .5s;
+  -o-transition: top .5s;
 }
 
 .nav-show {
@@ -203,7 +209,10 @@ nav a {
   text-decoration: none;
   color: inherit;
   text-shadow: 1px 1px rgba(0,0,0,0.1);
+  transition: color .5s;
   -webkit-transition: color .5s;
+  -moz-transition: color .5s;
+  -o-transition: color .5s;
 }
 
 nav a:hover {
@@ -365,7 +374,10 @@ nav a:hover {
   border-top: 1px solid rgba(0,0,0,0.1);
   overflow: hidden;
   margin-top: 0;
+  transition: margin-top 1s;
+  -moz-transition: margin-top 1s;
   -webkit-transition: margin-top 1s;
+  -o-transition: margin-top 1s;
   position: relative;
 }
 
@@ -400,6 +412,9 @@ nav a:hover {
   color: #fdfbee;
   text-transform: uppercase;
   -webkit-transition: color .5s;
+  -moz-transition: color .5s;
+  -webkit-transition: color .5s;
+  -o-transition: color .5s;
 }
 
 #work .info a:hover {
@@ -411,7 +426,7 @@ nav a:hover {
   float: right;
   width: 48%;
   margin: 20px 1%;
-  border: solid 6px #fff;
+  border: solid 2px #fff;
 }
 
 @media (max-width: 400px){
@@ -467,7 +482,10 @@ nav a:hover {
 
 #contact-info a {
   color: inherit;
+  transition: color 1s;
+  -moz-transition: color 1s;
   -webkit-transition: color 1s;
+  -o-transition: color 1s;
 }
 
 #contact-info a:hover {
@@ -614,6 +632,9 @@ nav a:hover {
 
 .rslides li {
   -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
   position: absolute;
   display: none;
   width: 100%;

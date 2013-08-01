@@ -28,8 +28,8 @@
 		"desc2"		   : "piq is a startup created by myself and two others. I am responsible for the design and front end development of the web application.",
 		"link"       : "#project/piq",
 		"prImage"    : "img/piq-pr.jpg",
-		"launchLink" : "http://www.piq.fm/",
-		"launchText" : "View Case Study",
+		"launchLink" : "http://piq.fm",
+		"launchText" : "Launch Site",
 		"bgImage"    : "img/piq-bg.jpg",
 		"images"     : [ 
 			{
@@ -40,6 +40,24 @@
  			},
  			{
 				"image" : "img/piq-3.png"
+ 			}
+		]
+	},
+
+	"soundseq" : {
+		"title"      : "Soundseq",
+		"client"     : "a re-sequencer / looper for the browser",
+		"blurb"      : "a re-sequencer / looper for the browser",
+		"desc"       : "Soundseq is a re-sequencing and looping remix tool that runs in the browser. Soundseq allows users to upload any song to our application, where it is analyzed and sliced up. Users can then rearrange the order slices are played back in real time.",
+		"desc2"		   : "My team and I built Soundseq as a project for <a href=\"http://musichackday.org/\">Music Hack Day</a>, a 24 hour sprint to build new music technologies. We used the <a href=\"http://echonest.com/\">EchoNest API</a> to analyze the music as well as the <a href=\"http://developers.soundcloud.com/\"> SoundCloud API</a> to upload your performance.",
+		"link"       : "#project/soundseq",
+		"prImage"    : "img/soundseq-pr.jpg",
+		"launchLink" : "http://soundseq.com",
+		"launchText" : "Launch Site",
+		"bgImage"    : "img/soundseq-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/soundseq-1.png"
  			}
 		]
 	},
@@ -76,7 +94,7 @@
 		"desc2"		   : "Powered by Pride is a two part strategy. The first part is a companion application for soccer fans. Here users can state their allegience and follow their team leading up to the World Cup.  The second part is a physical experience that would be in Brazil during the World Cup and would lean on the data provided by the application.",
 		"link"       : "#project/poweredbypride",
 		"prImage"    : "img/nike-pr.jpg",
-		"launchLink" : "http://mrexcavator.com",
+		"launchLink" : "casestudies/poweredbypride",
 		"launchText" : "View Case Study",
 		"bgImage"    : "img/nike-bg.jpg",
 		"images"     : [ 
@@ -89,6 +107,24 @@
  			},
  			{
 				"image" : "img/nike-3.jpg"
+ 			}
+		]
+	},
+
+	"doaflip" : {
+		"title"      : "Doaflip.js",
+		"client"     : "a jQuery plugin for UI animations",
+		"blurb"      : "a jQuery plugin for UI animations",
+		"desc"       : "doaflip.js is a jQuery plugin I wrote to easily add a flipping effect to any element using CSS3 animations.  Simply call .doaflip() on any selector and it does the rest. It programmatically configures the transformations, rotations, and keyframes based on the settings you pass in and then injects the css into a style element in the DOM.",
+		"desc2"		   : "",
+		"link"       : "#project/doaflip",
+		"prImage"    : "img/doaflip-pr.jpg",
+		"launchLink" : "/doaflip",
+		"launchText" : "Launch Site",
+		"bgImage"    : "img/doaflip-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/doaflip-1.png"
  			}
 		]
 	},
