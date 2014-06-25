@@ -1,0 +1,155 @@
+{
+	"maniackernels" : {
+		"title"      : "Maniac Kernels",
+		"client"     : "Coke-a-Cola &amp; AMC Theatres",
+		"blurb"      : "Experience for Coca-Cola Ahh Effect",
+		"desc"       : "Maniac Kernels is a game I built for the <a href=\"http://www.ahh.com/\" target=\"_blank\">Ahh Effect</a> campaign by Coca Cola. This particular experience is a collaboration between Coca-Cola and AMC Theatres. The concept is to fly around in a coke bottle space craft and shoot down maniac popcorn kernels before they hit you.",
+		"desc2"		   : "Maniac Kernels is an html5 game built with Javascript and Canvas. The experience has been optimized for mobile devices by enabling native features for game play,  such as their gyroscope to steer. In addition to the development of the game I also did all of the sound design.",
+		"link"       : "#project/maniackernels",
+		"prImage"    : "img/kernels-pr.jpg",
+		"launchLink" : "http://www.ahhhhhhhhhhhhhhhhhh.com/",
+		"launchText" : "Launch Game",
+		"bgImage"    : "img/kernels-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/kernels-1.png"
+ 			},
+			{
+				"image" : "img/kernels-2.png"
+ 			}
+		]
+	},
+
+	"piq" : {
+		"title"      : "piq",
+		"client"     : "a jukebox for social spaces",
+		"blurb"      : "a jukebox for social spaces",
+		"desc"       : "piq is a modern day jukebox that leverages cloud technologies to enable people to collaborate with music like never before.  piq is a hardware device paired with a web application that allows anyone within a physical space select songs to add to the queue which is then streamed off the device.",
+		"desc2"		   : "piq is a startup created by myself and two others. I am responsible for the design and front end development of the web application.",
+		"link"       : "#project/piq",
+		"prImage"    : "img/piq-pr.jpg",
+		"launchLink" : "http://piq.fm",
+		"launchText" : "Launch Site",
+		"bgImage"    : "img/piq-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/piq-1.png"
+ 			},
+			{
+				"image" : "img/piq-2.png"
+ 			},
+ 			{
+				"image" : "img/piq-3.png"
+ 			}
+		]
+	},
+
+	"soundseq" : {
+		"title"      : "Soundseq",
+		"client"     : "a re-sequencer / looper for the browser",
+		"blurb"      : "a re-sequencer / looper for the browser",
+		"desc"       : "Soundseq is a re-sequencing and looping remix tool that runs in the browser. Soundseq allows users to upload any song to our application, where it is analyzed and sliced up. Users can then rearrange the order slices are played back in real time.",
+		"desc2"		   : "My team and I built Soundseq as a project for <a href=\"http://musichackday.org/\">Music Hack Day</a>, a 24 hour sprint to build new music technologies. We used the <a href=\"http://echonest.com/\">EchoNest API</a> to analyze the music as well as the <a href=\"http://developers.soundcloud.com/\"> SoundCloud API</a> to upload your performance.",
+		"link"       : "#project/soundseq",
+		"prImage"    : "img/soundseq-pr.jpg",
+		"launchLink" : "http://soundseq.com",
+		"launchText" : "Launch Site",
+		"bgImage"    : "img/soundseq-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/soundseq-1.png"
+ 			}
+		]
+	},
+
+	"roboticpiratemonkey" : {
+		"title"      : "Robotic Pirate Monkey",
+		"client"     : "band website for electronic group",
+		"blurb"      : "band website for electronic group",
+		"desc"       : "Robotic Pirate Monkey was a project of mine and two friends for the last three years. We toured the country numerous times and played at venues such as Red Rocks, and Coachella.",
+		"desc2"		   : "I designed and built the website for RPM keeping in mind what is most critical to our fans.  In one simple interface fans can now find all of our music, see upcoming tour dates, and purchase merchandise all in one place. A major concern is that the content needed to always be fresh and thus easy to update. For this reason I build roboticpiratemonkey.com in wordpress, and incorporated external API's such as Soundcloud and Song Kick.",
+		"link"       : "#project/roboticpiratemonkey",
+		"prImage"    : "img/rpm-pr.jpg",
+		"launchLink" : "http://roboticpiratemonkey.com",
+		"launchText" : "Launch Site",
+		"bgImage"    : "img/rpm-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/rpm-1.png"
+ 			},
+			{
+				"image" : "img/rpm-2.png"
+ 			},
+ 			{
+				"image" : "img/rpm-3.jpg"
+ 			}
+		]
+	},
+
+	"poweredbypride" : {
+		"title"      : "Powered by Pride",
+		"client"     : "Concept for Nike at World Cup 2014",
+		"blurb"      : "Concept for Nike at World Cup 2014",
+		"desc"       : "Powered by pride is a concept born out of the BDW Book Lab series.  These labs are two day sprints hosted by various companies that come into BDW with a problem/ brief. The brief for this project was provided by <a href=\"http://www.wirestone.com/\" target=\"_blank\">Wirestone</a> and was to come up with integrated experience for Nike to use at the upcoming World Cup in Brazil.",
+		"desc2"		   : "Powered by Pride is a two part strategy. The first part is a companion application for soccer fans. Here users can state their allegience and follow their team leading up to the World Cup.  The second part is a physical experience that would be in Brazil during the World Cup and would lean on the data provided by the application.",
+		"link"       : "#project/poweredbypride",
+		"prImage"    : "img/nike-pr.jpg",
+		"launchLink" : "casestudies/poweredbypride",
+		"launchText" : "View Case Study",
+		"bgImage"    : "img/nike-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/nike-1.png",
+				"caption" : " "
+ 			},
+			{
+				"image" : "img/nike-2.jpg"
+ 			},
+ 			{
+				"image" : "img/nike-3.jpg"
+ 			}
+		]
+	},
+
+	"doaflip" : {
+		"title"      : "Doaflip.js",
+		"client"     : "a jQuery plugin for UI animations",
+		"blurb"      : "a jQuery plugin for UI animations",
+		"desc"       : "doaflip.js is a jQuery plugin I wrote to easily add a flipping effect to any element using CSS3 animations.  Simply call .doaflip() on any selector and it does the rest. It programmatically configures the transformations, rotations, and keyframes based on the settings you pass in and then injects the css into a style element in the DOM.",
+		"desc2"		   : "",
+		"link"       : "#project/doaflip",
+		"prImage"    : "img/doaflip-pr.jpg",
+		"launchLink" : "/doaflip",
+		"launchText" : "Launch Site",
+		"bgImage"    : "img/doaflip-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/doaflip-1.png"
+ 			}
+		]
+	},
+
+	"mrexcavator" : {
+		"title"      : "Mr. Excavator",
+		"client"     : "business website for excavation contractor",
+		"blurb"      : "business website for excavation contractor",
+		"desc"       : "Mr Excavator is an excavation contractor in North East, OH.  The main objectives for their website are to prove their capabilities, provide easily accessible contact information, have a place for people to apply for jobs online, and display their business in a professional manner.",
+		"desc2"		   : "To accomplish these goals I explored all potential content I had to work with and organized it according to these business goals.  For example, things like past work, and equipment seemed to naturally reinforce capabilities so they were placed after the section where services are explicitly listed.",
+		"link"       : "#project/mrexcavator",
+		"prImage"    : "img/mrex-pr.jpg",
+		"launchLink" : "http://mrexcavator.com",
+		"launchText" : "Launch Site",
+		"bgImage"    : "img/mrex-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/mrex-1.png"
+ 			},
+			{
+				"image" : "img/mrex-2.png"
+ 			},
+ 			{
+				"image" : "img/mrex-3.png"
+ 			}
+		]
+	}
+}

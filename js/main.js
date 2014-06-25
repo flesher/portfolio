@@ -51,6 +51,7 @@ $(document).ready(function(){
 
   compiled = _.template(mFlesh.workTemp);
   $.get('work.json', function(data) {
+    console.log('work')
     var list = [];
     
     for(var i in data){
@@ -143,8 +144,9 @@ $(document).ready(function(){
   /                                  */
 
   $(window).on('startitup', function(){
-
+    console.log('no canvas')
     if ($('#canvas')){
+      console.log('canvas')
       $('#mainloader').fadeOut(1000);
       setTimeout(function(){
         homepageAnim();

@@ -3,7 +3,7 @@ mFlesh.mainload = function() {
 	var len  = pics.length;
 	var loadCounter = 0;
 	var images = new Array();
-
+	
 	for(var i = 0; i < len; i++) {
 		
 		images[i] = new Image();

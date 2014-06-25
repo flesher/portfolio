@@ -17,13 +17,17 @@
       self.$el.show();
       $("body").css("overflow", "hidden");
       
-      $.get('work.json', function(data) { 
-        var proj = "data." + name;    
+      $.get('work.json', function(data) {  
+        console.log(data)
+        var proj = "data." + name;   
         var html = compiled(data[name]);
+        console.log(html)
         var list = data[name].images;
         var bg   = data[name].bgImage;
         var bgObj = {};
         bgObj.image = bg;
+        
+        console.log(html)
           
         self.$el.append(html);
 

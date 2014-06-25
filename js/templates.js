@@ -21,7 +21,7 @@ mFlesh.workDetailTemp = [
 					'<h1><%= title %></h1>',
 					'<h2><%= client %></h2>',
 					'<p><%= desc %></p>',
-					'<p><%= desc2 %></p>',
+					'<% if (typeof(desc2) != "undefined") { %><p><%= desc2 %></p><% }  %>',
 					'<a class="launch" href="<%= launchLink %>" target="_blank"> <%= launchText %></a>',	
 				'</div>',	
 			'</div>',

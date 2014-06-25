@@ -3,8 +3,8 @@
 		"title"      : "Maniac Kernels",
 		"client"     : "Coke-a-Cola &amp; AMC Theatres",
 		"blurb"      : "Experience for Coca-Cola Ahh Effect",
-		"desc"       : "Maniac Kernels is a game I built for the <a href=\"http://www.ahh.com/\" target=\"_blank\">Ahh Effect</a> campaign by Coca Cola. This particular experience is a collaboration between Coca-Cola and AMC Theatres. The concept is to fly around in a coke bottle space craft and shoot down maniac popcorn kernels before they hit you.",
-		"desc2"		   : "Maniac Kernels is an html5 game built with Javascript and Canvas. The experience has been optimized for mobile devices by enabling native features for game play,  such as their gyroscope to steer. In addition to the development of the game I also did all of the sound design.",
+		"desc"       : "Maniac Kernels is a game built for the <a href=\"http://www.ahh.com/\" target=\"_blank\">Ahh Effect</a> campaign by Coca Cola in the summer of 2013 in collaboration with AMC Theaters.  It began as a simple single level experience but one year later, ecstatic with its results, the client wanted to blow it out by adding new levels and a prize give away. The concept is to fly around in a coke bottle space craft and battle Colonel Kernel and his evil maniac popcorn minions.",
+		"desc2"		   : "Maniac Kernels is an HTML5 game built with Javascript and Canvas. The experience has been optimized for mobile devices by enabling native sensors for game play. In addition to the development of the game I also did all of the sound design.",
 		"link"       : "#project/maniackernels",
 		"prImage"    : "img/kernels-pr.jpg",
 		"launchLink" : "http://www.ahhhhhhhhhhhhhhhhhh.com/",
@@ -17,6 +17,75 @@
 			{
 				"image" : "img/kernels-2.png"
  			}
+		]
+	},
+	
+	"runbetter" : {
+		"title"      : "Run Better",
+		"client"     : "Newton Running",
+		"blurb"      : "Microsite for release of new line of running shoes",
+		"desc"       : "Run Better is a website created for the release of Newton’s new line of 5 Lug running shoes. On the surface Newton is just a shoe company, however if you know the brand you know they stand for far more.  They are a grass roots company that stands for running in its purest form, there is an amazing community that surrounds their brand, and they use some of the most forward thinking technology in athletic apparel.  These were things we aimed to highlight while creating the Run Better site.  We really got to push the “cool factor” on this site by playing with some new transition effects and experimental interface design.",
+		"link"       : "#project/runbetter",
+		"prImage"    : "img/newton-pr.jpg",
+		"launchLink" : "http://runbetter.newtonrunning.com/",
+		"launchText" : "Launch Site",
+		"bgImage"    : "img/newton-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/newton-1.png"
+			}
+		]
+	},
+	
+	"pizzadrop" : {
+		"title"      : "Pizza Drop",
+		"client"     : "Coke-a-Cola &amp; Dominoes",
+		"blurb"      : "Experience for Coca-Cola Ahh Effect",
+		"desc"       : "Pizza Drop is an HTML 5 video game where users drop a pizza and Coke-a-Cola cap down a maze of pegs and obstacles with hope of both landing in the same slot at the bottom.",
+		"desc2"		   : "The largest challenge of this project was getting the physics of the game elements to look realistic while not slowing down the experience. I accomplished this by utilizing web workers to run a physics simulation in a separate thread and then communicate the data from the simulation to composite layer where the graphics are rendered on canvas.",
+		"link"       : "#project/pizzadrop",
+		"prImage"    : "img/pizzadrop-pr.jpg",
+		"launchLink" : "http://www.change-me.com/",
+		"launchText" : "Launch Game",
+		"bgImage"    : "img/pizzadrop-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/pizzadrop-1.png"
+			}
+		]
+	},
+	
+	"handsonronburgundy" : {
+		"title"      : "Hands On a Hard Body",
+		"client"     : "Dodge &amp; Anchorman 2",
+		"blurb"      : "Interactive contest to win the 2014 Dodge Durango",
+		"desc"       : "Hands On A Ron Burgundy was an interactive contest for Dodge featuring the star of Anchor Man, Ron Burgundy. Akin the the popular Hands on a <a href=\"http://en.wikipedia.org/wiki/Hands_on_a_Hard_Body:_The_Documentary\" target=\"_blank\">Hardbody contest</a>, contestants were urged to “touch” Ron Burgundy continuously for as long as possible via their cursor or touch device.  The person with the longest consecutive touch over the course of the contest won the all new Dodge Durango.",
+		"link"       : "#project/handsonronburgundy",
+		"prImage"    : "img/burgundy-pr.jpg",
+		"launchLink" : "https://vimeo.com/80931999",
+		"launchText" : "Launch Video",
+		"bgImage"    : "img/burgundy-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/burgundy-1.png"
+			}
+		]
+	},
+	
+	"modularrobotics" : {
+		"title"      : "Modular Robotics",
+		"client"     : "Modular Robotics",
+		"blurb"      : "Marketing site for Boulder, CO based toy company",
+		"desc"       : "Modular robotics is a toy company that makes robot construction kits for kids.  They wanted a site that clearly communicates their technology while still embodying the playfulness of their brand.  As a young, rapidly growing company, they also needed a site that could scale as their business grew.  To accomplish this we delivered them a suite of web modules that had the design language built into them. These modules can be combined and reused in countless different ways to create new pages as they need them.",
+		"link"       : "#project/modularrobotics",
+		"prImage"    : "img/modrob-pr.jpg",
+		"launchLink" : "http://www.modrobotics.com/",
+		"launchText" : "Launch Site",
+		"bgImage"    : "img/modrob-bg.jpg",
+		"images"     : [ 
+			{
+				"image"   : "img/modrob-1.png"
+			}
 		]
 	},
 
@@ -60,102 +129,5 @@
 				"image"   : "img/soundseq-1.png"
  			}
 		]
-	},
-
-	"roboticpiratemonkey" : {
-		"title"      : "Robotic Pirate Monkey",
-		"client"     : "band website for electronic group",
-		"blurb"      : "band website for electronic group",
-		"desc"       : "Robotic Pirate Monkey was a project of mine and two friends for the last three years. We toured the country numerous times and played at venues such as Red Rocks, and Coachella.",
-		"desc2"		   : "I designed and built the website for RPM keeping in mind what is most critical to our fans.  In one simple interface fans can now find all of our music, see upcoming tour dates, and purchase merchandise all in one place. A major concern is that the content needed to always be fresh and thus easy to update. For this reason I build roboticpiratemonkey.com in wordpress, and incorporated external API's such as Soundcloud and Song Kick.",
-		"link"       : "#project/roboticpiratemonkey",
-		"prImage"    : "img/rpm-pr.jpg",
-		"launchLink" : "http://roboticpiratemonkey.com",
-		"launchText" : "Launch Site",
-		"bgImage"    : "img/rpm-bg.jpg",
-		"images"     : [ 
-			{
-				"image"   : "img/rpm-1.png"
- 			},
-			{
-				"image" : "img/rpm-2.png"
- 			},
- 			{
-				"image" : "img/rpm-3.jpg"
- 			}
-		]
-	},
-
-	"poweredbypride" : {
-		"title"      : "Powered by Pride",
-		"client"     : "Concept for Nike at World Cup 2014",
-		"blurb"      : "Concept for Nike at World Cup 2014",
-		"desc"       : "Powered by pride is a concept born out of the BDW Book Lab series.  These labs are two day sprints hosted by various companies that come into BDW with a problem/ brief. The brief for this project was provided by <a href=\"http://www.wirestone.com/\" target=\"_blank\">Wirestone</a> and was to come up with integrated experience for Nike to use at the upcoming World Cup in Brazil.",
-		"desc2"		   : "Powered by Pride is a two part strategy. The first part is a companion application for soccer fans. Here users can state their allegience and follow their team leading up to the World Cup.  The second part is a physical experience that would be in Brazil during the World Cup and would lean on the data provided by the application.",
-		"link"       : "#project/poweredbypride",
-		"prImage"    : "img/nike-pr.jpg",
-		"launchLink" : "casestudies/poweredbypride",
-		"launchText" : "View Case Study",
-		"bgImage"    : "img/nike-bg.jpg",
-		"images"     : [ 
-			{
-				"image"   : "img/nike-1.png",
-				"caption" : " "
- 			},
-			{
-				"image" : "img/nike-2.jpg"
- 			},
- 			{
-				"image" : "img/nike-3.jpg"
- 			}
-		]
-	},
-
-	"doaflip" : {
-		"title"      : "Doaflip.js",
-		"client"     : "a jQuery plugin for UI animations",
-		"blurb"      : "a jQuery plugin for UI animations",
-		"desc"       : "doaflip.js is a jQuery plugin I wrote to easily add a flipping effect to any element using CSS3 animations.  Simply call .doaflip() on any selector and it does the rest. It programmatically configures the transformations, rotations, and keyframes based on the settings you pass in and then injects the css into a style element in the DOM.",
-		"desc2"		   : "",
-		"link"       : "#project/doaflip",
-		"prImage"    : "img/doaflip-pr.jpg",
-		"launchLink" : "/doaflip",
-		"launchText" : "Launch Site",
-		"bgImage"    : "img/doaflip-bg.jpg",
-		"images"     : [ 
-			{
-				"image"   : "img/doaflip-1.png"
- 			}
-		]
-	},
-
-	"mrexcavator" : {
-		"title"      : "Mr. Excavator",
-		"client"     : "business website for excavation contractor",
-		"blurb"      : "business website for excavation contractor",
-		"desc"       : "Mr Excavator is an excavation contractor in North East, OH.  The main objectives for their website are to prove their capabilities, provide easily accessible contact information, have a place for people to apply for jobs online, and display their business in a professional manner.",
-		"desc2"		   : "To accomplish these goals I explored all potential content I had to work with and organized it according to these business goals.  For example, things like past work, and equipment seemed to naturally reinforce capabilities so they were placed after the section where services are explicitly listed.",
-		"link"       : "#project/mrexcavator",
-		"prImage"    : "img/mrex-pr.jpg",
-		"launchLink" : "http://mrexcavator.com",
-		"launchText" : "Launch Site",
-		"bgImage"    : "img/mrex-bg.jpg",
-		"images"     : [ 
-			{
-				"image"   : "img/mrex-1.png"
- 			},
-			{
-				"image" : "img/mrex-2.png"
- 			},
- 			{
-				"image" : "img/mrex-3.png"
- 			}
-		]
 	}
 }
-
-
-
-
-
-
